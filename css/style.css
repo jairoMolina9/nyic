@@ -1,13 +1,13 @@
 /*
- * Author 	: HIMANSHU GUPTA 
+ * Author 	: HIMANSHU GUPTA
  * Email 		: himanshucse2012@gmail.com
  * Website	:	http://www.indioweb.in/portfolio
  */
- 
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
- 
+
 /*
- * Basic CSS starts 
+ * Basic CSS starts
  */
 
 body{
@@ -53,14 +53,14 @@ hr{
 	border:0;
 }
 
-/* 
- * Basic CSS ends 
+/*
+ * Basic CSS ends
  */
 
-header .navbar { 
+header .navbar {
 	margin: 0;
 	border-radius: 0;
-	border-bottom: 1px solid #fb6c6c; 
+	border-bottom: 1px solid #fb6c6c;
 	box-shadow: 0 1px 15px rgba(0,0,0,0.2);
 }
 header .navbar-nav>li>a {
@@ -71,9 +71,9 @@ header .navbar-nav>li>a {
 	border-radius: 3px;
 }
 
-header .navbar-default .navbar-nav>li>a:hover, 
+header .navbar-default .navbar-nav>li>a:hover,
 header .navbar-default .navbar-nav>li>a:focus,
-header .navbar-default .navbar-nav>li.open>a:hover, 
+header .navbar-default .navbar-nav>li.open>a:hover,
 header .navbar-default .navbar-nav>li.open>a:focus {
 	background: #fff;
 	border: 1px solid #fb6c6c;
@@ -84,7 +84,7 @@ header .navbar-nav .dropdown-menu {
 	border-radius: 3px;
 	border-color: #fb6c6c;
 }
-header .navbar-nav .dropdown-menu:after, 
+header .navbar-nav .dropdown-menu:after,
 header .navbar-nav .dropdown-menu:before {
 	bottom: 100%;
 	right: 30px;
@@ -119,9 +119,9 @@ header .navbar-brand img {
 }
 
 /*
- * Banner 
+ * Banner
  */
- 
+
 .banner {
 	background: #fff url('../img/back.jpg');
 	padding-top: 150px;
@@ -159,12 +159,12 @@ header .navbar-brand img {
 
 .default-heading {
 	margin-bottom: 30px;
-	text-align: center; 
+	text-align: center;
 }
 .default-heading h2 {
 	margin-top: 0;
 	margin-bottom: 20px;
-	font-size: 32px; 
+	font-size: 32px;
 }
 .default-heading p {
 	font-size: 14px;
@@ -176,7 +176,7 @@ header .navbar-brand img {
 /*
  * works
  */
- 
+
 .works {
 	padding-top: 120px;
 	padding-bottom: 30px;
@@ -200,10 +200,15 @@ header .navbar-brand img {
 	text-transform: uppercase;
 }
 
+.works img {
+  height: 270px;
+  width: 350px;
+}
+
 /*
  * team
  */
- 
+
 .team {
 	padding-top: 120px;
 	padding-bottom: 30px;
@@ -224,12 +229,16 @@ header .navbar-brand img {
 	font-size: 14px;
 	line-height: 23px;
 }
+.team .member img {
+  height: 400px;
+  width: 1200px;
+}
 
 
 /*
  * Contact
  */
- 
+
 .contact {
 	padding-top: 120px;
 	padding-bottom: 120px;
@@ -256,7 +265,7 @@ footer p {
 	line-height: 25px;
 	color: #fff;
 }
-footer p a { 
+footer p a {
 	font-size: 14px;
 	line-height: 26px;
 	text-transform: uppercase;
@@ -298,21 +307,21 @@ footer .copy-right {
 }
 
 /*
- * Responsive CSS 
+ * Responsive CSS
  */
 
 /*
- * Mobile phones 
+ * Mobile phones
  */
 @media (max-width: 480px){
 
 }
 
 /*
- * Tablets 
+ * Tablets
  */
 @media (max-width: 767px){
-	header .navbar-nav .dropdown-menu:after, 
+	header .navbar-nav .dropdown-menu:after,
 	header .navbar-nav .dropdown-menu:before { display: none;}
 	.contact .contact-container {
 		max-width: 360px;
@@ -323,7 +332,7 @@ footer .copy-right {
 }
 
 /*
- * Desktop 
+ * Desktop
  */
 @media (max-width: 991px){
 
