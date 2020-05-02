@@ -15,11 +15,25 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<!-- Font awesome CSS -->
 		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<!-- TYPED.JS for typewriter animation -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" ></script>
+		<!-- Google Font -->
+		    <link href='https://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
 		<!-- Custom CSS -->
 		<link href="css/style.css" rel="stylesheet">
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="#">
+
+		<style>
+		.pfpTop2 {
+
+		    font-family: 'Unica One', cursive;
+				font-weight: bold;
+				color: black;
+				font-size: 50px;
+		}
+		</style>
 	</head>
 
 	<body>
@@ -73,9 +87,13 @@
 			<div class="banner">
 				<div class="container">
 					<!-- heading -->
-					<h2>Dream Hub, a site to find resources for undocumented students</h2>
+
 					<!-- sub heading -->
-					<h3></h3>
+					<div class="pfpTop2">
+						<h2>Dream Hub, a site to find
+							<span id="typed"></span> for undocumented students
+							</h2>
+					</div>
 					<!-- access button -->
 					<!--<a href="#" class="btn btn-default">FIND INFO</a>-->
 				</div>
@@ -262,5 +280,15 @@
 		<script src="js/html5shiv.js"></script>
 		<!-- Custom JS -->
 		<script src="js/custom.js"></script>
+
+		<script>
+		var options = {
+		  strings: ["resources", "assistance", "help", "support"],
+		  typeSpeed: 100,
+		  loop: true,
+
+		}
+		var typed = new Typed("#typed", options);
+		</script>
 	</body>
 </html>
