@@ -56,7 +56,9 @@ hr{
 /*
  * Basic CSS ends
  */
-
+#foot a:hover{
+	color: black;
+}
 header .navbar {
 	margin: 0;
 	border-radius: 0;
@@ -65,6 +67,8 @@ header .navbar {
 	border-top: 1px solid #000000;
 	border-left: 1px solid #000000;
 	box-shadow: 0 1px 15px rgba(0,0,0,0.2);
+	font-size: 15px;
+	font-weight: bold;
 }
 
 header .navbar-nav>li>a {
