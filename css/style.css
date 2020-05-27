@@ -254,6 +254,18 @@ header .navbar-brand img {
   height: 400px;
   width: 1200px;
 }
+/*
+*Additional Div
+*/
+.healthadditional {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.schooladditional {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
 
 
 /*
