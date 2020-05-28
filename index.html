@@ -249,6 +249,9 @@
 					</div>
 				</div>
 			</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 			<footer>
 				<div class="container" id = "foot">
 					<p><a href="https://www.hesc.ny.gov/dream/">DREAM TAP</a> | <a href="https://www.nyic.org/our-work/campaigns/responding-to-covid-19-new-york-united-campaign/covid-19-community-resources/">COVID-19 Resources</a> | <a href="https://www.2020census.gov/">2020 Census</a> | <a href="https://docs.google.com/document/d/1qilwSmaqELoyPc9-a1ka82aXAq3HDlWvbYEzwsKNNL0/edit">NYSYLC Resources</a></p>
@@ -268,6 +271,24 @@
 			</footer>
 
 		</div>
+		<script>
+		var mybutton = document.getElementById("myBtn");
+
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
 
 
 		<!-- Javascript files -->

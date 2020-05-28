@@ -74,8 +74,8 @@
 						-->
 					</div>
 					<div class = "buttons">
-					<button class = "button2" autofocus onclick="getSeniors()">Seniors</button>
-					<button class = "button2" onclick="getCommunity()">Community</button>
+					<button class = "button2 senior" autofocus onclick="getSeniors()">Senior Colleges</button>
+					<button class = "button2" onclick="getCommunity()">Community Colleges</button>
 				</div>
 
 					<div class="row " id = "seniorscollege">
@@ -83,9 +83,9 @@
 							<!-- work item -->
 							<div class="work-item">
 								<!-- work details image -->
-								<img class="img-responsive" src="img/schools/ccny.jpg" alt="" />
+								<img data-toggle="modal" data-target="#ccnyModal" class="img-responsive" src="img/schools/ccny.jpg" alt="" />
 								<!-- heading -->
-								<h3><a href="#">City College of New York</a></h3>
+								<h3><a data-toggle="modal" data-target="#ccnyModal" href="#">City College of New York</a></h3>
 								<p><b>160 Convent Avenue @ 138th Street</b><br>
 									New York, NY 10031 <br> (212) 650-6448 </p>
 							</div>
@@ -94,9 +94,9 @@
 							<!-- work item -->
 							<div class="work-item">
 								<!-- work details image -->
-								<img class="img-responsive" src="img/schools/qc.jpg" alt="" />
+								<img data-toggle="modal" data-target="#qcModal" class="img-responsive" src="img/schools/qc.jpg" alt="" />
 								<!-- heading -->
-								<h3><a href="schoolfiles/QCedu.html">Queens College</a></h3>
+								<h3><a data-toggle="modal" data-target="#qcModal" href="schoolfiles/QCedu.html">Queens College</a></h3>
 								<!-- brand org -->
 								<p><b>65-30 Kissena Boulevard</b><br>
 									Queens, NY 11367<br> (718) 997-5000 </p>
@@ -106,9 +106,9 @@
             							<!-- work item -->
             							<div class="work-item">
             								<!-- work details image -->
-            								<img class="img-responsive" src="img/schools/bk.jpg" alt="" />
+            								<img data-toggle="modal" data-target="#bkModal" class="img-responsive" src="img/schools/bk.png" alt="" />
             								<!-- heading -->
-            								<h3><a href="#">Brooklyn College</a></h3>
+            								<h3><a data-toggle="modal" data-target="#bkModal" href="#">Brooklyn College</a></h3>
             								<!-- brand org -->
 														<p><b>2900 Bedford Avenue</b><br>
 															Brooklyn, NY 11210<br> (718) 951-5001 </p>
@@ -118,9 +118,9 @@
             							<!-- work item -->
             							<div class="work-item">
             								<!-- work details image -->
-            								<img class="img-responsive" src="img/schools/johnjay.jpg" alt="" />
+            								<img data-toggle="modal" data-target="#jjModal" class="img-responsive" src="img/schools/johnjay.jpg" alt="" />
             								<!-- heading -->
-            								<h3><a href="#">John Jay</a></h3>
+            								<h3><a data-toggle="modal" data-target="#jjModal" href="#">John Jay</a></h3>
             								<!-- brand org -->
 														<p><b>445 West 59th Street</b><br>
 															New York, NY 10019<br> (212) 237-8866 </p>
@@ -130,9 +130,9 @@
             							<!-- work item -->
             							<div class="work-item">
             								<!-- work details image -->
-            								<img class="img-responsive" src="img/schools/hunter.jpg" alt="" />
+            								<img data-toggle="modal" data-target="#hunterModal" class="img-responsive" src="img/schools/hunter.jpg" alt="" />
             								<!-- heading -->
-            								<h3><a href="#">Hunter College</a></h3>
+            								<h3><a data-toggle="modal" data-target="#hunterModal" href="#">Hunter College</a></h3>
             								<!-- brand org -->
 														<p><b>695 Park Avenue</b><br>
 															New York, NY 10021<br> (212) 772-4490 </p>
@@ -142,9 +142,9 @@
 													<!-- work item -->
 													<div class="work-item">
 														<!-- work details image -->
-														<img class="img-responsive" src="img/soon.png" alt="" />
+														<img data-toggle="modal" data-target="#baruchModal" class="img-responsive" src="img/schools/baruch.png" alt="" />
 														<!-- heading -->
-														<h3><a href="#">Baruch College</a></h3>
+														<h3><a data-toggle="modal" data-target="#baruchModal" href="#">Baruch College</a></h3>
 														<!-- brand org -->
 														<p><b>One Bernard Baruch Way</b><br>
 															New York, NY 10010-5585<br> (646) 312-1000 </p>
@@ -154,9 +154,9 @@
 													<!-- work item -->
 													<div class="work-item">
 														<!-- work details image -->
-														<img class="img-responsive" src="img/soon.png" alt="" />
+														<img data-toggle="modal" data-target="#csiModal" class="img-responsive" src="img/schools/csi.png" alt="" />
 														<!-- heading -->
-														<h3><a href="#">College of Staten Island</a></h3>
+														<h3><a data-toggle="modal" data-target="#csiModal" href="#">College of Staten Island</a></h3>
 														<!-- brand org -->
 														<p><b>2800 Victory Boulevard</b><br>
 															Staten Island, NY 10314<br> (718) 982-2010 </p>
@@ -166,9 +166,9 @@
 													<!-- work item -->
 													<div class="work-item">
 														<!-- work details image -->
-														<img class="img-responsive" src="img/soon.png" alt="" />
+														<img data-toggle="modal" data-target="#lehmanModal" class="img-responsive" src="img/schools/lehman.png" alt="" />
 														<!-- heading -->
-														<h3><a href="#">Lehman College</a></h3>
+														<h3><a data-toggle="modal" data-target="#lehmanModal" href="#">Lehman College</a></h3>
 														<!-- brand org -->
 														<p><b>250 Bedford Park Boulevard West</b><br>
 															Bronx, NY 10468<br> (718) 960-8000 </p>
@@ -178,9 +178,9 @@
 													<!-- work item -->
 													<div class="work-item">
 														<!-- work details image -->
-														<img class="img-responsive" src="img/soon.png" alt="" />
+														<img data-toggle="modal" data-target="#medgarsModal" class="img-responsive" class="img-responsive" src="img/schools/medgars.jpg" alt="" />
 														<!-- heading -->
-														<h3><a href="#">Medgars Evars College</a></h3>
+														<h3><a data-toggle="modal" data-target="#medgarsModal" href="#">Medgars Evars College</a></h3>
 														<!-- brand org -->
 														<p><b>1650 Bedford Avenue</b><br>
 															Brooklyn, NY 11225<br> (718) 270-6024 </p>
@@ -190,9 +190,9 @@
 													<!-- work item -->
 													<div class="work-item">
 														<!-- work details image -->
-														<img class="img-responsive" src="img/soon.png" alt="" />
+														<img data-toggle="modal" data-target="#ctechModal" class="img-responsive" src="img/schools/ctech.png" alt="" />
 														<!-- heading -->
-														<h3><a href="#">City Tech</a></h3>
+														<h3><a data-toggle="modal" data-target="#ctechModal" href="#">City Tech</a></h3>
 														<!-- brand org -->
 														<p><b>300 Jay Street</b><br>
 															Brooklyn, NY 11201<br> (718) 260-5000 </p>
@@ -202,9 +202,9 @@
 													<!-- work item -->
 													<div class="work-item">
 														<!-- work details image -->
-														<img class="img-responsive" src="img/soon.png" alt="" />
+														<img data-toggle="modal" data-target="#yorkModal" class="img-responsive" src="img/schools/york.png" alt="" />
 														<!-- heading -->
-														<h3><a href="#">York College</a></h3>
+														<h3><a data-toggle="modal" data-target="#yorkModal" href="#">York College</a></h3>
 														<!-- brand org -->
 														<p><b>94-20 Guy R. Brewer Boulevard</b><br>
 															Jamaica, NY 11451<br> (718) 262-2165 </p>
@@ -216,9 +216,9 @@
 												<!-- work item -->
 												<div class="work-item">
 													<!-- work details image -->
-													<img class="img-responsive" src="img/schools/bmcc.jpg" alt="" />
+													<img data-toggle="modal" data-target="#bmccModal" class="img-responsive" src="img/schools/bmcc.jpg" alt="" />
 													<!-- heading -->
-													<h3><a href="#">Borough of Manhattan</a></h3>
+													<h3><a data-toggle="modal" data-target="#bmccModal" href="#">Borough of Manhattan</a></h3>
 													<!-- brand org -->
 													<p><b>199 Chambers Street</b><br>
 														New York, NY 10007<br> (212) 220-1265 </p>
@@ -228,9 +228,9 @@
 												<!-- work item -->
 												<div class="work-item">
 													<!-- work details image -->
-													<img class="img-responsive" src="img/schools/kbcc.jpeg" alt="" />
+													<img data-toggle="modal" data-target="#kbccModal" class="img-responsive" src="img/schools/kbcc.jpeg" alt="" />
 													<!-- heading -->
-													<h3><a href="#">Kingsborough</a></h3>
+													<h3><a data-toggle="modal" data-target="#kbccModal" href="#">Kingsborough</a></h3>
 													<!-- brand org -->
 													<p><b>2001 Oriental Boulevard</b><br>
 														Brooklyn, NY 11235<br> (718) 368-4600 </p>
@@ -240,9 +240,9 @@
 												<!-- work item -->
 												<div class="work-item">
 													<!-- work details image -->
-													<img class="img-responsive" src="img/schools/laguardia.png" alt="" />
+													<img data-toggle="modal" data-target="#laModal" class="img-responsive" src="img/schools/laguardia.png" alt="" />
 													<!-- heading -->
-													<h3><a href="#">LaGuardia</a></h3>
+													<h3><a data-toggle="modal" data-target="#laModal" href="#">LaGuardia</a></h3>
 													<!-- brand org -->
 													<p><b>31-10 Thomson Avenue</b><br>
 														Long Island City, NY 11101<br> (718) 482-5000 </p>
@@ -252,9 +252,9 @@
 												<!-- work item -->
 												<div class="work-item">
 													<!-- work details image -->
-													<img class="img-responsive" src="img/schools/qbcc.png" alt="" />
+													<img data-toggle="modal" data-target="#qbccModal" class="img-responsive" src="img/schools/qbcc.png" alt="" />
 													<!-- heading -->
-													<h3><a href="#">Queensborough</a></h3>
+													<h3><a data-toggle="modal" data-target="#qccModal" href="#">Queensborough</a></h3>
 													<!-- brand org -->
 													<p><b>222-05 56th Avenue</b><br>
 														Bayside, NY 11364<br> (718) 631-6262 </p>
@@ -264,9 +264,9 @@
 												<!-- work item -->
 												<div class="work-item">
 													<!-- work details image -->
-													<img class="img-responsive" src="img/soon.png" alt="" />
+													<img data-toggle="modal" data-target="#hostosModal" class="img-responsive" src="img/schools/hostos.png" alt="" />
 													<!-- heading -->
-													<h3><a href="#">Hostos</a></h3>
+													<h3><a data-toggle="modal" data-target="#hostosModal" href="#">Hostos</a></h3>
 													<!-- brand org -->
 													<p><b>500 Grand Concourse</b><br>
 														Bronx, NY 10451<br> (718) 518-4444 </p>
@@ -276,9 +276,9 @@
 												<!-- work item -->
 												<div class="work-item">
 													<!-- work details image -->
-													<img class="img-responsive" src="img/soon.png" alt="" />
+													<img data-toggle="modal" data-target="#guttModal" class="img-responsive" src="img/schools/guttman.png" alt="" />
 													<!-- heading -->
-													<h3><a href="#">Guttman</a></h3>
+													<h3><a data-toggle="modal" data-target="#guttModal" href="#">Guttman</a></h3>
 													<!-- brand org -->
 													<p><b>50 West 40th Street</b><br>
 														New York, NY 10018<br> (646) 313-8010 </p>
@@ -288,53 +288,16 @@
 												<!-- work item -->
 												<div class="work-item">
 													<!-- work details image -->
-													<img class="img-responsive" src="img/soon.png" alt="" />
+													<img data-toggle="modal" data-target="#bxModal" class="img-responsive" src="img/schools/bx.png" alt="" />
 													<!-- heading -->
-													<h3><a href="#">Bronx CC</a></h3>
+													<h3><a data-toggle="modal" data-target="#bxModal" href="#">Bronx CC</a></h3>
 													<!-- brand org -->
 													<p><b>2155 University Avenue</b><br>
 														Bronx, NY 10453<br> (718) 289-5100 </p>
 												</div>
 											</div>
 										</div>
-										<div class="row " id = "community" style="display:none">
-									<div class="col-md-3" >
-										<!-- work item -->
-										<div class="work-item">
-											<!-- work details image -->
-											<img class="img-responsive" src="img/schools/bmcc.jpg" alt="" />
-											<!-- heading -->
-											<h3><a href="#">Borough of Manhattan</a></h3>
-											<!-- brand org -->
-											<p><b>199 Chambers Street</b><br>
-												New York, NY 10007<br> (212) 220-1265 </p>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<!-- work item -->
-										<div class="work-item">
-											<!-- work details image -->
-											<img class="img-responsive" src="img/schools/kbcc.jpeg" alt="" />
-											<!-- heading -->
-											<h3><a href="#">Kingsborough</a></h3>
-											<!-- brand org -->
-											<p><b>2001 Oriental Boulevard</b><br>
-												Brooklyn, NY 11235<br> (718) 368-4600 </p>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<!-- work item -->
-										<div class="work-item">
-											<!-- work details image -->
-											<img class="img-responsive" src="img/schools/laguardia.png" alt="" />
-											<!-- heading -->
-											<h3><a href="#">LaGuardia</a></h3>
-											<!-- brand org -->
-											<p><b>31-10 Thomson Avenue</b><br>
-												Long Island City, NY 11101<br> (718) 482-5000 </p>
-										</div>
-									</div>
-								</div>
+
 				</div>
 			</div>
 
@@ -385,8 +348,357 @@
 					</div>
 				</div>
 
+		<!-- MODALS -->
+				<div class="modal fade" id="ccnyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">The City College of New York</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="qcModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Queens College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
 
 
+<div class="modal fade" id="bkModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Brooklyn College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="jjModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">John Jay College of Criminal Justice</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="hunterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Hunter College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="baruchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Baruch College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="csiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">College of Staten Island</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="lehmanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Lehman College School of Continuing and Professional Studies</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="medgarsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Medgar Evers College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="ctechModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">New York City College of Technology</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="yorkModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">York College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="bmccModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Borough of Manhattan Community College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="kbccModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Kingsborough Community College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="laModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">LaGuardia Community College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="qbccModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Queensborough Community College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="hostosModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Hostos Community College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="guttModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Guttman Community College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="bxModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Bronx Community College</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 			</div>
 
@@ -410,6 +722,24 @@
 
 		</div>
 
+		<script>
+		var mybutton = document.getElementById("myBtn");
+
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
 
 		<script>
 function getSeniors() {
