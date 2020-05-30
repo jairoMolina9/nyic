@@ -36,7 +36,9 @@
 /*
  * Basic CSS starts
  */
-
+html {
+  scroll-behavior: smooth;
+}
 body{
 	font-family: 'Open Sans', Sans Serif;
 	font-weight: 400;
