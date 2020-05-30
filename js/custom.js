@@ -1,3 +1,4 @@
+
 //TOP scrolling
 var mybutton = document.getElementById("myBtn");
 
@@ -77,3 +78,13 @@ for (i = 0; i < acc.length; i++) {
         this.nextElementSibling.classList.toggle("show");
   }
 }
+
+var options = {
+  strings: ["resources", "assistance", "help", "support"],
+  typeSpeed: 100,
+  loop: true,
+  backDelay: 2000,
+
+}
+
+var typed = new Typed("#typed", options);

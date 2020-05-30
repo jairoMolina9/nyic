@@ -5,6 +5,15 @@
  */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+.pfpTop2 {
+
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -59,7 +68,7 @@ p{
   outline: none;
 	display:inline-block;
 margin-top: 10px;
-	 font-family:'Roboto',sans-serif;
+	font-family: 'Open Sans', Sans Serif;
 	border: 1px;
   background-color: white;
   color: black;
@@ -69,7 +78,13 @@ margin-top: 10px;
   cursor: pointer;
 	box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.1);
 }
+.pfpTop2 {
 
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+}
 .button2:focus {
   background-color: #A9A9A9;
   color: white;
@@ -90,6 +105,11 @@ margin-top: 10px;
 	cursor: pointer;
 }
 
+#teampic {
+  border-radius: 20px;
+  height: 270px;
+}
+
 .work-item {
 	transition: all 0.4s ease 0s;
 }
@@ -98,7 +118,6 @@ margin-top: 10px;
   color: black;
 	 transform: translateY(-7px);
 }
-
 a{
 	text-decoration: none;
 	color: #fb6c6c;
