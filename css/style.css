@@ -6,6 +6,23 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
+
+
+.control-arrow {
+  color: #002D71;
+
+  font-weight: bold;
+  font-size: 70px;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  left:-5px;
+}
+
 .pfpTop2 {
 
     font-family: 'Unica One', cursive;
@@ -451,7 +468,11 @@ footer .copy-right {
  * Mobile phones
  */
 @media (max-width: 480px){
-
+  .control-arrow {
+    font-size: 40px;
+    color: white;
+    left: 10px;
+  }
 }
 
 /*
